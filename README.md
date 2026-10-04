@@ -8,11 +8,3 @@ Predictive model that identifies customers likely to discontinue a service.
 - `public/index.html` – "Which customers might leave?" report (deployed on Vercel)
 - `vercel.json` – serves `public/` as a static site (data and notebook are not exposed)
 
-## Run the notebook
-```bash
-pip install -r requirements.txt
-jupyter notebook notebooks/customer_churn_xgboost.ipynb
-```
-
-## Deploy on Vercel
-Import the GitHub repo at vercel.com/new. No framework or build command needed; `vercel.json` handles it.
